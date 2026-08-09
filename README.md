@@ -1,4 +1,4 @@
-🎮 ##rock, paper, scissors! ✨
+🎮 # rock, paper, scissors! ✨
 
 a cute and simple gui game built with python and tkinter. play against the computer, track your score, and enjoy a sweet, pastel-themed interface.
 
