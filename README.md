@@ -53,7 +53,3 @@ a cute and simple gui game built with python and tkinter. play against the compu
 - language: python 3.6+
 - gui framework: tkinter + ttk
 - randomization: random module
-
-🤝 license
-
-this project is open for learning and experimentation. feel free to fork, modify, and improve it!
