@@ -22,8 +22,7 @@ a cute and simple gui game built with python and tkinter. play against the compu
 - your score and the computer’s score are tracked in real time.
 - click “🔄 reset game” to reset the scores at any time.
 - click “❓ how to play” to see the rules in a popup window.
-  <img width="1920" height="1021" alt="image" src="https://github.com/user-attachments/assets/37e872fe-7c43-42b3-b392-e9e5d6bda7f8" />
-
+- <img width="1920" height="1004" alt="image" src="https://github.com/user-attachments/assets/7189fe87-0feb-45e5-853f-ea3c0817c658" />
 
 🎨 features
 
