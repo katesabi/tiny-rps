@@ -1,6 +1,6 @@
-🎮 ##rock, paper, scissors game
+🎮 ## rock, paper, scissors game
 
-this project is a sweet-themed rock, paper, scissors desktop game built with python and tkinter. the goal is to deliver a cozy, friendly ui with gentle colors, clear screens, and simple sound effects that make each round feel like a little celebration.
+this project is a sweet-themed rock, paper, scissors desktop game built with python and tkinter. the goal is to deliver a cozy, friendly ui with gentle colors, clear screens, and simple sound effects.
 
 ## key features
 - ✅ multi-screen flow — start, rules, and game screens with smooth switching.  
