@@ -1,55 +1,39 @@
-🎮  rock, paper, scissors! ✨
+🎮 # readme — rock, paper, scissors game
 
-a cute and simple gui game built with python and tkinter. play against the computer, track your score, and enjoy a sweet, pastel-themed interface.
+this project is a sweet-themed rock, paper, scissors desktop game built with python and tkinter. the goal is to deliver a cozy, friendly ui with gentle colors, clear screens, and simple sound effects that make each round feel like a little celebration.
 
-📋 how to run
+## key features
+- ✅ multi-screen flow — start, rules, and game screens with smooth switching.  
+- ✅ soft color palette — pale pink background with warm beige buttons and dusty rose accents.  
+- ✅ built-in sound effects — simple beeps for clicks, wins, losses, and draws.  
+- ✅ clear score tracking — separate counters for user and computer with highlighted accent color.  
+- ✅ responsive grid layout — neatly aligned buttons and labels for all screen sizes.  
 
-1. make sure you have python 3.6 or higher installed.
-2. save the code as rps_game.py.
-3. open a terminal or command prompt.
-4. navigate to the folder where the file is saved.
-5. run:
-   python rps_game.py
-6. enjoy the game! 🎉
+## what this project practices
+- designing clean, themed ui with ttk styles.  
+- managing multiple screens via pack_forget and pack.  
+- using tk variables (stringvar, intvar) for dynamic ui updates.  
+- adding basic audio cues with winsound for instant feedback.  
+- organizing game logic and ui building in separate functions.  
 
-🕹️ how to play
+## how to run
+1. ensure you have python installed (3.x recommended).  
+2. save the code as `rps_game.py`.  
+3. run it from terminal: `python rps_game.py`.  
+4. the app will launch with a fixed window size and the start screen.  
 
-- click “🎮 play!” to start the game.
-  <img width="1920" height="873" alt="image" src="https://github.com/user-attachments/assets/7044d262-3ffc-470f-90d7-c17beca531b4" />
-- choose your move: rock, paper, or scissors.
-  <img width="1920" height="964" alt="image" src="https://github.com/user-attachments/assets/e7e47bcb-750b-4283-834f-2b08703857d4" />
-- the game will tell you if you won, lost, or it’s a draw.
-- your score and the computer’s score are tracked in real time.
-- click “🔄 reset game” to reset the scores at any time.
-- click “❓ how to play” to see the rules in a popup window.
-- <img width="1920" height="1004" alt="image" src="https://github.com/user-attachments/assets/7189fe87-0feb-45e5-853f-ea3c0817c658" />
+## how to play
+1. on the start screen, click “🎮 Play!” to begin or “❓ How to Play” to see the rules.  
+2. in the game screen, choose your move by clicking one of the buttons: “🪨 Rock”, “📄 Paper”, or “✂️ Scissors”.  
+3. the computer will pick a random move; the result (win, loss, or draw) will be shown with a short sound effect.  
+4. your scores and the computer’s scores update automatically after each round.  
+5. use “🔄 Reset Game” to clear scores and start fresh.  
+6. to return to the start screen from the rules, click “🔙 Back”.  
 
-🎨 features
+## notes
+- the game uses a simple win/loss/draw logic based on classic rock, paper, scissors rules.  
+- sound effects are minimal and use basic beeps; they work on windows systems with winsound.  
+- if you click the move buttons very fast, multiple events might fire before the ui updates.  
+- some unusual characters don’t affect this game (no text input), but the design is optimized for standard emoji and text.  
+- the window size is fixed for a consistent look across systems.  
 
-- cute pastel ui with custom colors and fonts.
-- score tracking for both you and the computer.
-- how to play popup with simple rules.
-- reset button to restart scoring anytime.
-- clean separation of ui and game logic.
-- designed for a small, fixed window for a cozy feel.
-
-🧠 what i practiced while building this
-
-- tkinter gui development: labels, buttons, frames, and dynamic updates with stringvar and intvar.
-- event handling: button commands and logical flow between screens.
-- game logic: simple win/draw/lose conditions.
-- ui structure: switching between start screen and game screen by destroying and rebuilding widgets.
-- styling with ttk: customizing themes, fonts, colors, and hover effects.
-- user experience: clear feedback, intuitive buttons, and a “how to play” helper.
-
-⚠️ known issues
-
-- if you click the move buttons very fast, multiple events might fire before the ui updates.
-- some unusual characters don’t affect this game (no text input), but the design is optimized for standard emoji and text.
-- the window size is fixed for a consistent look across systems.
-
-🛠️ tech stack
-
-- language: python 3.6+
-- gui framework: tkinter + ttk
-- randomization: random module
