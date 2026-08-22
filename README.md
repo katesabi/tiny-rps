@@ -36,4 +36,3 @@ this project is a sweet-themed rock, paper, scissors desktop game built with pyt
 - if you click the move buttons very fast, multiple events might fire before the ui updates.  
 - some unusual characters don’t affect this game (no text input), but the design is optimized for standard emoji and text.  
 - the window size is fixed for a consistent look across systems.  
-
